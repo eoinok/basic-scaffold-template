@@ -1,19 +1,20 @@
 {
-    "name": "infyomlabs/adminlte-templates",
-    "description": "AdminLTE templates for InfyOm Laravel Generator",
+    "name": "eoinok/basic-scaffold-template",
+    "description": "a basic scaffold template designed to work with Infyom Laravel Generator.",
     "keywords": [
         "infyom",
         "laravel",
         "generator",
-        "adminlte",
+        "basic scaffold",
         "templates",
-        "bootstrap"
+        "bootstrap",
+        "bootstrap5"
     ],
     "license": "MIT",
     "authors": [
         {
-            "name": "Mitul Golakiya",
-            "email": "me@mitul.me"
+            "name": "Eoin O'Kennedy",
+            "email": "eokenned@gmail.com"
         }
     ],
     "require": {
@@ -22,7 +23,12 @@
     },
     "autoload": {
         "psr-4": {
-            "InfyOm\\AdminLTETemplates\\": "src/"
+            "eoinok\\basic-scaffold-template\\": "src/"
+        }
+    },
+    "config": {
+        "allow-plugins": {
+            "kylekatarnls/update-helper": true
         }
     }
 }
